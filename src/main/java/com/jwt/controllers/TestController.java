@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 	@GetMapping("/checkapi")
 	public ResponseEntity<String> checkGetApi() {
-		return ResponseEntity.ok("API & Get end point it's running!");
+		return ResponseEntity.ok("Has iniciado sesion");
 	}
 	
 	@PostMapping("/checkapi")
 	public ResponseEntity<String> checkPostApi() {
-		return ResponseEntity.ok("API & POST end point it's running!");
+		return ResponseEntity.ok("Has iniciado sesion");
 	}
 }
 
